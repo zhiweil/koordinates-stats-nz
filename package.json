@@ -1,0 +1,40 @@
+{
+  "name": "@zhiweiliu/koordinates-stats-nz",
+  "version": "1.0.0",
+  "description": "Datasets of Stats New Zealand on Koordinates",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "test": "jest"
+  },
+  "keywords": [
+    "Stats New Zealand",
+    "Koordinates"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhiweil/koordinates-stats-nz.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zhiweil/koordinates-stats-nz/issues"
+  },
+  "homepage": "https://github.com/zhiweil/koordinates-stats-nz#readme",
+  "author": "Zhiwei Liu",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^29.5.11",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.2",
+    "ts-node": "^10.9.2",
+    "tsup": "^8.0.1",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@zhiweiliu/koordinates-base": "^1.0.8"
+  }
+}
