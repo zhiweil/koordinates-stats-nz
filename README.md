@@ -4,11 +4,10 @@ The repository provides access to Stats New Zealand datasets hosted by Koordinat
 
 ## Supported datasets
 
-- Daily temperature 30 sites, state, 1909 - 2022
-- Annual and seasonal temperatures at 30 sites, trends, 1972-2022
-- Annual and seasonal temperatures at 30 sites, state 1972 - 2022
-- National Temperature, trends, 1909-2022
-- National temperature, state, 1909-2022
+- Meshblock 2024
+- Geographic Areas Table 2024
+- Current Geographic Boundaries Table 2024
+- New Zealand 2022 Estimated Resident Population Grid 250 metre, 2023
 
 ## Example
 
@@ -21,7 +20,7 @@ import { statsNzDatasets } from "@zhiweiliu/koordinates-stats-nz";
 import apiKey from "./api-key";
 
 // Find dataset
-let mb: KoordinatesDataset = LinzDatasets.find(
+let mb: KoordinatesDataset = statsNzDatasets.find(
   (d) => d.getName() === "Meshblock 2024"
 ) as KoordinatesDataset;
 

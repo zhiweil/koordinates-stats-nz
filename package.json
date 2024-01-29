@@ -35,6 +35,6 @@
     "typescript": "^5.3.3"
   },
   "dependencies": {
-    "@zhiweiliu/koordinates-base": "^1.0.8"
+    "@zhiweiliu/koordinates-base": "^1.0.10"
   }
 }
